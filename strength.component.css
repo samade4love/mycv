@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    position: relative;
+    padding-bottom: 50px;
+}
+.img img{
+    width: 100%;
+    margin-top: 20px;
+    height: 40vh;
+}
+
+@media screen and (min-width: 600px){
+    .container{
+        padding-bottom: 50px;
+    }
+    .img img{
+        width: 47%;
+        position: absolute;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 8px;
+    }
+    .img2 img{
+        right: 0px;
+    }
+    .img3 img{
+        top: 300px;
+    }
+    .img4 img{
+        right: 0px;
+        top: 300px;
+    }
+}
